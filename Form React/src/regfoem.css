@@ -1,0 +1,71 @@
+/* Form Container */
+/* .container {
+  max-width: 1000px;
+} */
+
+/* Form Shadow and Background */
+.shadow {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Heading */
+h2 {
+  color: #343a40;
+  font-weight: bold;
+}
+
+/* Input Fields */
+.form-control {
+  border-radius: 5px;
+  padding: 10px;
+  transition: all 0.3s ease;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+}
+
+/* Labels */
+.form-label {
+  font-weight: 600;
+  color: #495057;
+}
+
+/* Invalid Feedback */
+.invalid-feedback {
+  font-size: 0.9rem;
+}
+
+/* Submit Button */
+.btn-primary {
+  background: linear-gradient(45deg, #007bff, #0056b3);
+  border: none;
+  border-radius: 50px;
+  padding: 12px 30px;
+  font-size: 18px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #0056b3, #007bff);
+}
+
+.btn-primary:active {
+  background: linear-gradient(45deg, #003b80, #0056b3);
+  transform: scale(0.98);
+}
+
+/* Comments Section */
+#comments {
+  border-radius: 5px;
+}
+
+/* Row Spacing */
+.row {
+  margin-bottom: 15px;
+}
+

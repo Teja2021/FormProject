@@ -1,0 +1,22 @@
+.custom-table {
+  margin: auto;
+  width: 90%;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table th {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+}
+
+.custom-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.custom-table td button {
+  margin: 0 auto;
+  display: block;
+}
